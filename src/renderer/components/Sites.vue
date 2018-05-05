@@ -1,10 +1,11 @@
 <template lang="pug">
-  
+  main
+    div sites
 </template>
 
 <script>
   export default {
-    name: 'dashboard'
+    name: 'sites'
   }
 </script>
 
