@@ -42,4 +42,20 @@
       a
         color: $--color-text-primary
         text-decoration: none
+
+      .icon-link
+        svg
+          width: 20px
+          height: 20px
+          vertical-align: middle
+          padding-right: 0.5em
+
+        span
+          display: inline-block
+          height: 20px
+          vertical-align: middle
+
+        &:hover,
+        &.router-link-active
+          color: $--color-primary
 </style>

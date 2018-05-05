@@ -2,13 +2,13 @@
   #sidebar-wrapper
     ul
       li
-        router-link(to='/sites')
+        router-link.icon-link(to='/sites')
           icon(name='regular/window-maximize')
           span Sites
 
     ul
       li
-        router-link(to='/config')
+        router-link.icon-link(to='/config')
           icon(name='cog')
           span Config
 </template>
@@ -34,20 +34,4 @@
       list-style: none
       padding: 0
       margin: 0 0 2em 0
-
-      li
-        a
-          svg
-            width: 20px
-            height: 20px
-            vertical-align: middle
-            padding-right: 0.5em
-
-          span
-            display: inline-block
-            vertical-align: middle
-
-          &:hover,
-          &.router-link-active
-            color: $--color-primary
 </style>
