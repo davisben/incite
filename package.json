@@ -55,6 +55,7 @@
   "dependencies": {
     "element-ui": "^2.3.7",
     "nedb": "^1.8.0",
+    "sudo-prompt": "^8.2.0",
     "vue": "^2.3.3",
     "vue-awesome": "^3.0.0",
     "vue-electron": "^1.0.6",
