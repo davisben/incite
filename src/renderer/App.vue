@@ -9,7 +9,7 @@
   import Sidebar from '@/components/Sidebar'
 
   export default {
-    name: 'rime',
+    name: 'incite',
     components: {
       Sidebar
     }

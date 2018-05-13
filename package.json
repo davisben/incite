@@ -1,5 +1,5 @@
 {
-  "name": "rime",
+  "name": "incite",
   "description": "A local development control panel",
   "version": "0.0.1",
   "author": "Ben Davis <ben@davisben.com>",
@@ -19,8 +19,8 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "rime",
-    "appId": "com.davisben.rime",
+    "productName": "incite",
+    "appId": "com.davisben.incite",
     "directories": {
       "output": "build"
     },
