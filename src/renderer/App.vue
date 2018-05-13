@@ -32,8 +32,13 @@
         grid-column: 2/3
         grid-row: 1/2
         background-color: $--background-color-base
-        height: 100%
         padding: 2em
+
+        .form-item
+          margin: 0.5em 0
+
+        .form-actions
+          margin-top: 2em
 
       .sidebar
         grid-column: 1/2
